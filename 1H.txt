@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Hospital Management System</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="quick-access">
+            <div class="container">
+                <h2>Quick Access</h2>
+                <div class="access-icons">
+                    <a href="appointment.html">
+                        <div class="icon">
+                            <span class="icon-text">Appointment</span>
+                        </div>
+                    </a>
+                    <a href="records.html">
+                        <div class="icon">
+                            <span class="icon-text">Records</span>
+                        </div>
+                    </a>
+                    <a href="billing.html">
+                        <div class="icon">
+                            <span class="icon-text">Billing</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Hospital Management System. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
